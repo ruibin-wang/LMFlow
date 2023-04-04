@@ -299,7 +299,7 @@ CUDA_VISIBLE_DEVICES=0 \
     --deepspeed examples/ds_config.json
 ```
 You can now evaluate with the finetuned llama model.
-## In this step there might have a problem "ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.", you can just change the LLaMATokenizer in tokenizer_config.json into lowercase LlamaTokenizer and it works like a charm.
+#### In this step there might have a problem "ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.", you can just change the LLaMATokenizer in tokenizer_config.json into lowercase LlamaTokenizer and it works like a charm.
 
 
 ### 4.2 DeepSpeed Config
