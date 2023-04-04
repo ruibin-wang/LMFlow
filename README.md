@@ -155,9 +155,13 @@ pip install -e .
 ## 2.Prepare Dataset
 You can easily download the example training dataset and test dataset by running 
 ```bash
+apt install dos2unix   ## running shell in the ubuntu system
+dos2unix download.sh
 cd data
 bash download.sh all
 cd -
+pip install wandb
+wandb login + api_keys   ## api-keys can be found at: https://wandb.ai/settings
 ``` 
 
 You can also use your own dataset by simply convert to the following format:
